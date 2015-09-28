@@ -1,9 +1,8 @@
 __author__ = 'Administrator'
 
 
-def greeting(msg):
-    return msg
+import helper
 
 if __name__ == '__main__':
-    print(greeting('Hello'))
+    print(helper.greeting('Hello'))
 
